@@ -1,0 +1,19 @@
+package com.assignment;
+
+import java.util.Scanner;
+
+public class Sorting {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the numbers");
+		for(int i=0;i<=25;i++)
+		{
+			int i = scanner.nextInt();
+		}
+
+	}
+
+}

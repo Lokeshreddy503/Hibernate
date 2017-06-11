@@ -1,0 +1,22 @@
+package com.assignment;
+
+import java.util.Scanner;
+
+public class Sorting {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int sum=0;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the numbers");
+		for(int i=0;i<=5;i++)
+		{
+			int j = scanner.nextInt();
+			sum =sum+j;
+		}
+		System.out.println("the sum of 25 nubers is "+sum);
+
+	}
+
+}

@@ -1,0 +1,49 @@
+package com.assignment;
+
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class Sorting {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		LinkedList ll = new LinkedList();
+		int sum=0;
+		int add;
+		System.out.println("enter the numbers");
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int arr[]=new int[25];
+		
+		for(int i=0;i<24;i++)
+		{
+	        arr[i]=scanner.nextInt();
+	        add=sum+j;
+	        ll.add(sum);
+			
+
+	    }
+			
+			
+			
+		
+		Collections.sort(ll);
+		for(Object p :ll)
+		{
+			if(p instanceof Integer)
+			{
+				
+				System.out.println("after sorting :"+p);
+			}
+			
+		}
+		System.out.println("the sum of 25 nubers is :"+sum);
+		System.out.println("the avergae is:"+sum/25);
+
+	}
+
+}
